@@ -1,0 +1,110 @@
+{
+  "uid" : "760d7bca1a154a44",
+  "name" : "should see valid msg when login unsuccessfully with incorrect phone number",
+  "fullName" : "Account Function for undefined.should see valid msg when login unsuccessfully with incorrect phone number",
+  "historyId" : "2a91ceaefd6826cf9c2770db7cf1c194",
+  "time" : {
+    "start" : 1622194216492,
+    "stop" : 1622194226494,
+    "duration" : 10002
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 10000ms exceeded. The execution in the test \"Account Function for undefined should see valid msg when login unsuccessfully with incorrect phone number\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Administrator\\Desktop\\NhaKhon\\src\\test_script\\account\\TC_001_Login.js)",
+  "statusTrace" : "Error: Timeout of 10000ms exceeded. The execution in the test \"Account Function for undefined should see valid msg when login unsuccessfully with incorrect phone number\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Administrator\\Desktop\\NhaKhon\\src\\test_script\\account\\TC_001_Login.js)\n                    at createTimeoutError (C:\\Users\\Administrator\\Desktop\\NhaKhon\\node_modules\\mocha\\lib\\errors.js:498:15)\n                    at Test.Runnable._timeoutError (C:\\Users\\Administrator\\Desktop\\NhaKhon\\node_modules\\mocha\\lib\\runnable.js:431:10)\n                    at Timeout.<anonymous> (C:\\Users\\Administrator\\Desktop\\NhaKhon\\node_modules\\mocha\\lib\\runnable.js:246:24)\n                    at listOnTimeout (internal/timers.js:554:17)\n                    at processTimers (internal/timers.js:497:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 10000ms exceeded. The execution in the test \"Account Function for undefined should see valid msg when login unsuccessfully with incorrect phone number\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Administrator\\Desktop\\NhaKhon\\src\\test_script\\account\\TC_001_Login.js)",
+    "statusTrace" : "Error: Timeout of 10000ms exceeded. The execution in the test \"Account Function for undefined should see valid msg when login unsuccessfully with incorrect phone number\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Administrator\\Desktop\\NhaKhon\\src\\test_script\\account\\TC_001_Login.js)\n                    at createTimeoutError (C:\\Users\\Administrator\\Desktop\\NhaKhon\\node_modules\\mocha\\lib\\errors.js:498:15)\n                    at Test.Runnable._timeoutError (C:\\Users\\Administrator\\Desktop\\NhaKhon\\node_modules\\mocha\\lib\\runnable.js:431:10)\n                    at Timeout.<anonymous> (C:\\Users\\Administrator\\Desktop\\NhaKhon\\node_modules\\mocha\\lib\\runnable.js:246:24)\n                    at listOnTimeout (internal/timers.js:554:17)\n                    at processTimers (internal/timers.js:497:7)",
+    "steps" : [ {
+      "name" : "Input phonenumber as ",
+      "time" : {
+        "start" : 1622194216492,
+        "stop" : 1622194216492,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "testId",
+    "value" : "https://my-tms/TC_002"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Account Function for undefined"
+  }, {
+    "name" : "testClass",
+    "value" : "Account Function for undefined"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see valid msg when login unsuccessfully with incorrect phone number"
+  }, {
+    "name" : "package",
+    "value" : "Account Function for undefined"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "1cbd435520037ece-10"
+  } ],
+  "links" : [ {
+    "name" : "https://my-tms/TC_002",
+    "url" : "https://my-tms/TC_002",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f0d2ba7b4073351f",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 10000ms exceeded. The execution in the test \"Account Function for undefined should see valid msg when login unsuccessfully with incorrect phone number\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Administrator\\Desktop\\NhaKhon\\src\\test_script\\account\\TC_001_Login.js)",
+      "time" : {
+        "start" : 1622193974180,
+        "stop" : 1622193984183,
+        "duration" : 10003
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "760d7bca1a154a44.json",
+  "parameterValues" : [ "1cbd435520037ece-10" ]
+}

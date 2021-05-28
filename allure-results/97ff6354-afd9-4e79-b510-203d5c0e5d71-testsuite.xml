@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622194213190' stop='1622194226494'>
+    <name>Account Function for undefined</name>
+    <title>Account Function for undefined</title>
+    <test-cases>
+        <test-case start='1622194213191' status='passed' stop='1622194216492'>
+            <name>should login successfully</name>
+            <title>should login successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='https://my-tms/TC_001'/>
+                <label name='severity' value='critical'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='1cbd435520037ece-10'/>
+            </parameters>
+            <steps>
+                <step start='1622194213192' status='passed' stop='1622194213192'>
+                    <name>Input phonenumber as 0963585498</name>
+                    <title>Input phonenumber as 0963585498</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622194215766' status='passed' stop='1622194215766'>
+                    <name>Click on continue button</name>
+                    <title>Click on continue button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1622194216492' status='broken' stop='1622194226494'>
+            <name>should see valid msg when login unsuccessfully with incorrect phone number</name>
+            <title>should see valid msg when login unsuccessfully with incorrect phone number</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='https://my-tms/TC_002'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='1cbd435520037ece-10'/>
+            </parameters>
+            <steps>
+                <step start='1622194216492' status='passed' stop='1622194216492'>
+                    <name>Input phonenumber as </name>
+                    <title>Input phonenumber as </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 10000ms exceeded. The execution in the test "Account Function for undefined should see valid msg when login unsuccessfully with incorrect phone number" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Administrator\Desktop\NhaKhon\src\test_script\account\TC_001_Login.js)</message>
+                <stack-trace>Error: Timeout of 10000ms exceeded. The execution in the test "Account Function for undefined should see valid msg when login unsuccessfully with incorrect phone number" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Administrator\Desktop\NhaKhon\src\test_script\account\TC_001_Login.js)
+                    at createTimeoutError (C:\Users\Administrator\Desktop\NhaKhon\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\Administrator\Desktop\NhaKhon\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\Administrator\Desktop\NhaKhon\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:554:17)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

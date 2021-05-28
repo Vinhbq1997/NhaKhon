@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout of 10000ms exceeded. The execution in the test \"Account Function for undefined should see valid msg when login unsuccessfully with incorrect phone number\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Administrator\\Desktop\\NhaKhon\\src\\test_script\\account\\TC_001_Login.js)",
+      "children" : [ {
+        "name" : "should see valid msg when login unsuccessfully with incorrect phone number",
+        "uid" : "760d7bca1a154a44",
+        "parentUid" : "23680f663fa5898006329dec788b0e33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622194216492,
+          "stop" : 1622194226494,
+          "duration" : 10002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1cbd435520037ece-10" ]
+      } ],
+      "uid" : "23680f663fa5898006329dec788b0e33"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "760d7bca1a154a44",
+  "name" : "should see valid msg when login unsuccessfully with incorrect phone number",
+  "time" : {
+    "start" : 1622194216492,
+    "stop" : 1622194226494,
+    "duration" : 10002
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "24178a2d67e6f773",
+  "name" : "should login successfully",
+  "time" : {
+    "start" : 1622194213191,
+    "stop" : 1622194216492,
+    "duration" : 3301
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

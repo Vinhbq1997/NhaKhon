@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Account Function for undefined",
+    "children" : [ {
+      "name" : "should login successfully",
+      "uid" : "24178a2d67e6f773",
+      "parentUid" : "48b9e6a3e65593e72c1bacc9f057d7ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622194213191,
+        "stop" : 1622194216492,
+        "duration" : 3301
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1cbd435520037ece-10" ]
+    }, {
+      "name" : "should see valid msg when login unsuccessfully with incorrect phone number",
+      "uid" : "760d7bca1a154a44",
+      "parentUid" : "48b9e6a3e65593e72c1bacc9f057d7ae",
+      "status" : "broken",
+      "time" : {
+        "start" : 1622194216492,
+        "stop" : 1622194226494,
+        "duration" : 10002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1cbd435520037ece-10" ]
+    } ],
+    "uid" : "48b9e6a3e65593e72c1bacc9f057d7ae"
+  } ]
+}

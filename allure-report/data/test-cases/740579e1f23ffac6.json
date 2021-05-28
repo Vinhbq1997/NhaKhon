@@ -1,0 +1,106 @@
+{
+  "uid" : "740579e1f23ffac6",
+  "name" : "should login successfully",
+  "fullName" : "Account Function for undefined.should login successfully",
+  "historyId" : "145d6244203ba1bf23310c5438ac7442",
+  "time" : {
+    "start" : 1622193970597,
+    "stop" : 1622193974180,
+    "duration" : 3583
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Input phonenumber as 0963585498",
+      "time" : {
+        "start" : 1622193970599,
+        "stop" : 1622193970599,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on continue button",
+      "time" : {
+        "start" : 1622193973245,
+        "stop" : 1622193973245,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "testId",
+    "value" : "https://my-tms/TC_001"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Account Function for undefined"
+  }, {
+    "name" : "testClass",
+    "value" : "Account Function for undefined"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login successfully"
+  }, {
+    "name" : "package",
+    "value" : "Account Function for undefined"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "1cbd435520037ece-10"
+  } ],
+  "links" : [ {
+    "name" : "https://my-tms/TC_001",
+    "url" : "https://my-tms/TC_001",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "740579e1f23ffac6.json",
+  "parameterValues" : [ "1cbd435520037ece-10" ]
+}

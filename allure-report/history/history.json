@@ -1,0 +1,41 @@
+{
+  "145d6244203ba1bf23310c5438ac7442" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24178a2d67e6f773",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622194213191,
+        "stop" : 1622194216492,
+        "duration" : 3301
+      }
+    } ]
+  },
+  "2a91ceaefd6826cf9c2770db7cf1c194" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "760d7bca1a154a44",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 10000ms exceeded. The execution in the test \"Account Function for undefined should see valid msg when login unsuccessfully with incorrect phone number\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Administrator\\Desktop\\NhaKhon\\src\\test_script\\account\\TC_001_Login.js)",
+      "time" : {
+        "start" : 1622194216492,
+        "stop" : 1622194226494,
+        "duration" : 10002
+      }
+    } ]
+  }
+}
